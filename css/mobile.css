@@ -123,7 +123,7 @@ img {
 	display: block;
 }
 #header div#navigation ul li.selected > a {
-	background: rgba(248, 98, 130, 0.8);
+	background: rgba(255, 145, 77, 0.8);
 	color: #000000;
 }
 #body {
@@ -153,6 +153,11 @@ img {
 	margin: 0 auto;
 	width: 154px;
 }
+.grid-content {
+	
+	grid-template-columns: 1fr;
+	
+  }
 }
 @media only screen and (max-width : 568px) and (orientation : landscape) {
 #header div a.logo img {
