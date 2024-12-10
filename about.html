@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 	<link rel="stylesheet" type="text/css" href="css/mobile.css">
 	<script src="js/mobile.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
 	<div id="page">
@@ -33,10 +34,10 @@
 		</div>
 		<div id="body">
 			<div>
-				<h1>ABOUT ROCK CLIMBING</h1>
-				<img src="images/climbing.jpg" alt="">
-				<h2>This website will explore my sports climbing experience</h2>
-				<p> over the past year, which includes bouldering, top rope and lead climbing. Tips and findings will be provided.</p>
+				<h1 data-aos="fade-up" >ABOUT ROCK CLIMBING</h1>
+				<img data-aos="fade-up" src="images/climbing.jpg" alt="">
+				<h2 data-aos="fade-up">This website will explore my sports climbing experience</h2>
+				<p data-aos="fade-up"> over the past year, which includes bouldering, top rope and lead climbing. Tips and findings will be provided.</p>
 			</div>
 		</div>
 		<div id="footer">
@@ -51,5 +52,9 @@
 			</div>
 		</div>
 	</div>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>

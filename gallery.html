@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="css/style.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="css/mobile.css" />
     <script src="js/mobile.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
-    <div id="page">
+    <div id="page" style="display: flex; flex-direction: column; min-height: 100vh;">
       <div id="header">
         <div id="navigation">
           <span id="mobile-navigation">&nbsp;</span>
@@ -33,9 +34,21 @@
           </ul>
         </div>
       </div>
-      <div id="body">
+      <div id="body" style="flex-grow: 1; display: flex;">
         <div>
-          <h1>Gallery</h1>
+          <h1 data-aos="fade-up">Gallery</h1>
+
+		  <div class="grid-gallery">
+			<img src="images/gallery/01.png" alt="">
+			<img src="images/gallery/023.png" alt="">
+			<img src="images/gallery/030.png" alt="">
+			<img src="images/gallery/040.png" alt="">
+			<img src="images/gallery/050.png" alt="">
+			<img src="images/gallery/060.png" alt="">
+			<img src="images/gallery/070.png" alt="">
+			<img src="images/gallery/080.png" alt="">
+			<img src="images/gallery/090.png" alt="">
+		  </div>
         </div>
       </div>
       <div id="footer">

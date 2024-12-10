@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="css/mobile.css" />
     <script src="js/mobile.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <div id="page">
@@ -46,28 +47,28 @@
         </div>
         <div class="body">
           <div>
-            <h1>INTRO</h1>
-            <p>
+            <h1 data-aos="fade-up">INTRO</h1>
+            <p data-aos="fade-up">
               This website will explore my sports climbing experience over the
               past year, which includes bouldering, top rope and lead climbing.
               Tips and findings will be provided.
             </p>
-            <a href="gallery.html" class="more">Read More</a>
+            <a data-aos="fade-up" href="gallery.html" class="more">Read More</a>
           </div>
 
           <div>
-            <h1>Warming-up</h1>
-            <p>
+            <h1 data-aos="fade-up">Warming-up</h1>
+            <p data-aos="fade-up">
               Dynamic Stretches: Avoid static stretching early on. Focus on
               dynamic movements to loosen up your body
             </p>
 
             <div class="grid-content">
-              <div>
+              <div data-aos="fade-right">
                 <img src="images/warmup.png" alt="" style="width: 100%" />
               </div>
 
-              <div>
+              <div data-aos="fade-left">
                 <p>👉 Arm circles</p>
                 <p>👉 Leg swings (front-to-back and side-to-side)</p>
                 <p>👉 Hip circles</p>
@@ -78,33 +79,33 @@
             </div>
 
             <div>
-				<img src="images/bouldering5_1024x1024.webp" alt="">
-              <h1>1. Bouldering</h1>
-              <p>
+				<img data-aos="fade-up" src="images/bouldering5_1024x1024.webp" alt="">
+              <h1 data-aos="fade-up">1. Bouldering</h1>
+              <p data-aos="fade-up">
                 Bouldering is a form of rock climbing that involves climbing short, yet challenging routes (called “problems”) on small rock formations or artificial walls without the use of ropes or harnesses.
               </p>
             </div>
 
             <div>
-				<img src="images/top-rope.webp" alt="">
-              <h1>2. Top-Rope climbing</h1>
-              <p>
+				<img data-aos="fade-up" src="images/top-rope.webp" alt="">
+              <h1 data-aos="fade-up">2. Top-Rope climbing</h1>
+              <p data-aos="fade-up">
                 Top-rope climbing involves a rope that is anchored at the top of the climbing route. The climber is belayed from below by a partner (or from above, in some cases). The rope runs through an anchor at the top of the climb, providing continuous protection against falls.
               </p>
             </div>
 
             <div>
-				<img src="images/lead-climbing.webp" alt="">
-              <h1>3. Lead climbing </h1> 
-              <p>
+				<img data-aos="fade-up" src="images/lead-climbing.webp" alt="">
+              <h1 data-aos="fade-up">3. Lead climbing </h1> 
+              <p data-aos="fade-up">
                 Lead climbing is a type of climbing where the climber ascends a route while attaching themselves to the rope via a series of quickdraws (devices that clip the rope to the wall).
               </p>
             </div>
 
 			<div>
-				<p>Here are some very good brands for a variety of different climbing equipment that I found really good</p>
+				<p data-aos="fade-up">Here are some very good brands for a variety of different climbing equipment that I found really good</p>
 
-				<div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+				<div data-aos="fade-up" style="display: flex; gap: 1rem; flex-wrap: wrap;">
 					<img src="images/band1.jpg" alt="">
 					<img src="images/band2.jpg" alt="">
 					<img src="images/band3.jpg" alt="">
@@ -141,5 +142,9 @@
         </div>
       </div>
     </div>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

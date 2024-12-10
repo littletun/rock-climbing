@@ -757,8 +757,8 @@ img {
 }
 
 .header {
-	background: url(../images/climbing.jpg) no-repeat center top !important;
-	background-size: cover !important;
+  background: url(../images/climbing.jpg) no-repeat center top !important;
+  background-size: cover !important;
 }
 
 .grid-content {
@@ -769,13 +769,23 @@ img {
 }
 
 .grid-content div {
-	padding: 0 !important;
+  padding: 0 !important;
 }
 
-
 .grid-content p {
-	font-size: 18px !important;
-	text-align: start !important;
-	width: 100% !important;
-	padding-bottom: 0 !important;
+  font-size: 18px !important;
+  text-align: start !important;
+  width: 100% !important;
+  padding-bottom: 0 !important;
+}
+
+.grid-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+}
+
+.grid-gallery img {
+  width: 100% !important;
+  margin: 0 !important;
 }
